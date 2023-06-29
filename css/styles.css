@@ -511,6 +511,51 @@ main {
   min-height: 90vh;
 }
 
+/*Proyecctos*/
+
+.project-main {
+  padding-top: 20px;
+  background-color: black;
+  opacity: 90%;
+  border: 15px solid rgb(219, 219, 219);
+}
+.project-column{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.project-column .card img{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  height: 100px;
+  width: auto;
+}
+
+.text-me-center{
+  text-align: center;
+}
+
+.button-project{
+  width: 150px;
+  text-align: center;
+}
+
+.hide{
+  display:none;
+}
+
+.show{
+  display: block;
+}
+
+
+
 /*formulario de contacto*/
 .header-contacto {
   background: url(../assets/img/headerformm.jpg);

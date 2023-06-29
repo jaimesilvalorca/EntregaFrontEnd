@@ -33,57 +33,69 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    <a class="nav-link" href="#">Acerca de nosotros</a>
+                    <a class="nav-link" href="./about.html">Acerca de nosotros</a>
                     <a class="nav-link" href="./Devs.html">Equipo</a>
-                    <a class="nav-link" href="./projects.html">Proyectos</a>
+                    <a class="nav-link" href="#">Proyectos</a>
                     <a class="nav-link" href="./galeria.html">Galería</a>
                     <a class="nav-link" href="./contacto.html">Contactanos</a>
+
                 </div>
             </div>
         </div>
     </nav>
     <header>
     </header>
-    <main class="about-main">
+    <main class="project-main">
         <div class="desc-section animate__animated animate__backInDown">
-            <div class="text-me">
-                <h1>Acerca de nosotros</h1>
+            <div class="text-me-center">
+                <h1>Nuestros proyectos</h1>
+                <p style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus reprehenderit
+                    omnis, exercitationem itaque suscipit cum perferendis laudantium? Sint a voluptates, repellat
+                    expedita est facere ipsum sequi reprehenderit ex velit perferendis, repellendus in. Blanditiis nobis
+                    natus repellendus inventore dolor, unde nam vero quidem eligendi suscipit quos quam dolorum cum
+                    expedita quae! Veniam nobis corrupti ex quasi, veritatis minima voluptate excepturi odio mollitia!
+                    Accusantium dolorum ullam officia necessitatibus alias, nisi dolor ipsam earum odio asperiores
+                    deleniti nesciunt, impedit saepe sequi error exercitationem, autem possimus voluptate repellat
+                    placeat. Nesciunt iste, id ratione ipsa repudiandae amet aut animi quisquam corrupti quidem earum</p>
+                    <span class="hide" id="hideText">
+                        <p style="color: white;" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus reprehenderit
+                            omnis, exercitationem itaque suscipit cum perferendis laudantium? Sint a voluptates, repellat
+                            expedita est facere ipsum sequi reprehenderit ex velit perferendis, repellendus in. Blanditiis nobis
+                            natus repellendus inventore dolor, unde nam vero quidem eligendi suscipit quos quam dolorum cum
+                            expedita quae! Veniam nobis corrupti ex quasi, veritatis minima voluptate excepturi odio mollitia!
+                            Accusantium dolorum ullam officia necessitatibus alias, nisi dolor ipsam earum odio asperiores
+                            deleniti nesciunt, impedit saepe sequi error exercitationem, autem possimus voluptate repellat
+                            placeat. Nesciunt iste, id ratione ipsa repudiandae amet aut animi quisquam corrupti quidem earum</p>
+
+                    </span>
+
+                        <button class="btn btn-success button-project" id="hideText_btn">Mostrar mas</button><br><br>
             </div>
-            <div class="about-column">
-                <div>
-                    <div class="img-about">
-                        <img class="me" src="../assets/img/about2.jpg" alt="Imagen Jaime Silva">
-                    </div>
-                    <div>
-                        <h2 class="text-0">Jaime Silva Lorca</h2>
-                    </div>
-                    <div class="text-about">
-                        <ul>
-                            <li>Ingeniero en electricidad</li>
-                            <li>Estudiante de Ingeniería en informatica</li>
-                            <li>Conocimientos en html, css, javascript,react,node.js,python y java.</li>
-                            <li>#FrontEnd</li>
-                            <li>#Backend</li>
-                            <li>#BD</li>
-                        </ul>
+            <div class="project-column">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/img/pokemon.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokedex</h5>
+                        <p class="card-text">Proyecto basico con Javascript y html</p>
+                        <a href="https://jaimesilvalorca.github.io/Preentrega3_Silva/" class="btn btn-primary">Ver proyecto</a>
                     </div>
                 </div>
-                <div>
-                    <div class="img-about">
-                        <img class="me" src="../assets/img/about3.jpeg" alt="Imagen Juan Parra">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/img/eccomerse.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">FrontEnd Ecommerce</h5>
+                        <p class="card-text">Proyecto en construccion de un frontend de un Ecommerce</p>
+                        <a href="http://localhost:5173/" class="btn btn-primary">Ver proyecto</a>
                     </div>
-                    <div>
-                        <h2 class="text-0">Juan Esteban Parra</h2>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/img/eccomerse.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Backend-Ecommerce</h5>
+                        <p class="card-text">Backend de un proyecto de Ecommerce</p>
+                        <a href="http://localhost:8080/products" class="btn btn-primary">Ver proyecto</a>
                     </div>
-                    <div class="text-about">
-                        <ul>
-                            <li>Ingeniero Mecánico</li>
-                            <li>Estudiante de Analista Programador</li>
-                            <li>Conocimientos en html, css, javascript,node.js python y java.</li>
-                            <li>#FrontEnd</li>
-                        </ul>
-                    </div>
-                </div>   
+                </div>
             </div>
         </div>
     </main>
@@ -117,6 +129,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script src="../js/seemore.js"></script>
 </body>
 
 </html>
